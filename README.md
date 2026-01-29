@@ -27,6 +27,4 @@ El archivo `milknew.csv` incluye 1,059 registros con las siguientes característ
 Para ejecutar este notebook, clona el repositorio e instala las librerías necesarias:
 
 ```bash
-git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
-cd nombre-del-repo
-pip install -r requirements.txt
+git clone https://github.com/FelipeGoico/Proyecto-Milk-Quality-ML2
