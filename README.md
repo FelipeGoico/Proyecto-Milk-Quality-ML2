@@ -48,8 +48,8 @@ El modelo basado en **[Insertar Mejor Modelo, ej. Random Forest]** alcanzó una 
 
 ## 🛠️ Instalación y Uso
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/FelipeGoico/Proyecto-Milk-Quality-ML2.git](https://github.com/FelipeGoico/Proyecto-Milk-Quality-ML2.git)
-   cd Proyecto-Milk-Quality-ML2
+```bash
 
+git clone https://github.com/FelipeGoico/Proyecto-Milk-Quality-ML2
+
+https://github.com/FelipeGoico/Proyecto-Milk-Quality-ML2
