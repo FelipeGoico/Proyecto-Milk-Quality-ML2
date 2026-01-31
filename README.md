@@ -48,7 +48,7 @@ El modelo basado en **[Insertar Mejor Modelo, ej. Random Forest]** alcanzó una 
 
 ## 🛠️ Instalación y Uso
 
-```bash
+---
 
 git clone https://github.com/FelipeGoico/Proyecto-Milk-Quality-ML2
 
@@ -93,11 +93,12 @@ https://github.com/FelipeGoico/Proyecto-Milk-Quality-ML2
 
 📊 En resumen: el pipeline de la lechera sería Sensores → Microcontrolador IoT → Transmisión → Base de datos → Modelo ML → Dashboard → Acción.
 
-
+---
 ### Agradecimientos / Acknowledgements
 
 Agradecemos al **Núcleo de Investigación en Ciencia de Datos de la Universidad de las Américas** por el valioso apoyo formativo brindado, el cual ha contribuido significativamente al fortalecimiento de nuestras competencias y al desarrollo de este trabajo.
 
 We thank the **Data Science Research Center of Universidad de las Américas** for the valuable academic support provided, which has significantly contributed to strengthening our skills and to the development of this work.
 
+---
 
