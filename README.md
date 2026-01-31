@@ -1,30 +1,55 @@
 # 🥛 Evaluación de la Calidad de la Leche mediante Machine Learning
 
-Este repositorio contiene un estudio completo y un modelo predictivo para categorizar la calidad de la leche en tres niveles (**Bajo**, **Medio** y **Alto**) basándose en sus propiedades físico-químicas.
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange.svg)](https://scikit-learn.org/)
+[![Methodology](https://img.shields.io/badge/Methodology-CRISP--DM-red.svg)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
 
-
+Este repositorio contiene un estudio avanzado de clasificación para categorizar la calidad de la leche en niveles **Bajo**, **Medio** y **Alto**. El proyecto aborda la necesidad de optimizar los controles de calidad en la industria láctea mediante la automatización de análisis físico-químicos.
 
 ## 👥 Autores
 * **Felipe Santiago Goicolea Guerra**
 * **Matias Elier Labraña Abarca**
 * **Marcelo Andres Yañez Barrientos**
-*Magister Data Science (2025) - Universidad de las Américas, Santiago, Chile.*
+* *Magister Data Science (2025) - Universidad de las Américas, Santiago, Chile.*
+
+---
 
 ## 📋 Resumen del Proyecto
-El proyecto sigue la metodología **CRISP-DM** para abordar un problema crítico en la industria láctea: la lentitud y el costo de los análisis de laboratorio tradicionales. 
+El flujo de trabajo implementa la metodología **CRISP-DM**, garantizando un enfoque orientado a resultados de negocio y rigor estadístico. El objetivo principal es predecir la calidad de la leche de forma instantánea, reduciendo los costos asociados a los análisis de laboratorio tradicionales.
 
-### Fases del Proyecto:
-1. **Análisis Exploratorio (EDA):** Visualización de la distribución de pH, temperatura y grasa.
-2. **Preprocesamiento:** Manejo de datos duplicados y escalamiento de variables.
-3. **Modelado:** Entrenamiento de algoritmos de clasificación (Random Forest, SVM, etc.).
-4. **Evaluación:** Comparativa de desempeño mediante matrices de confusión y métricas de precisión.
+### 🔬 Fases de Implementación:
+1.  **Análisis Exploratorio (EDA):** Identificación de outliers y análisis de correlación entre pH, temperatura y grasa.
+2.  **Ingeniería de Datos:** Limpieza de duplicados, codificación de variables categóricas y escalamiento robusto de características.
+3.  **Modelado:** Evaluación comparativa de múltiples algoritmos (Random Forest, SVM, KNN, entre otros).
+4.  **Evaluación:** Validación cruzada y análisis detallado de métricas (Accuracy, F1-Score y Matrices de Confusión).
 
-## 📊 Dataset
-El archivo `milknew.csv` incluye 1,059 registros con las siguientes características:
-- pH, Temperatura, Sabor, Olor, Grasa, Turbidez y Color.
+---
 
-## 🛠️ Requisitos e Instalación
-Para ejecutar este notebook, clona el repositorio e instala las librerías necesarias:
+## 📊 El Dataset
+El conjunto de datos comprende **1,059 registros** con variables críticas para la industria:
 
-```bash
-git clone https://github.com/FelipeGoico/Proyecto-Milk-Quality-ML2
+| Variable | Descripción |
+| :--- | :--- |
+| **pH** | Nivel de acidez (fundamental para detectar degradación). |
+| **Temprature** | Temperatura de la muestra. |
+| **Taste/Odor** | Evaluación sensorial (Binario). |
+| **Fat** | Contenido graso (Binario). |
+| **Turbidity** | Nivel de turbidez (Binario). |
+| **Colour** | Valor cromático de la muestra. |
+| **Grade** | **Target:** Calidad (Low, Medium, High). |
+
+---
+
+## 🚀 Resultados y Conclusiones
+*(Nota: Sugerimos completar con sus métricas finales)*
+El modelo basado en **[Insertar Mejor Modelo, ej. Random Forest]** alcanzó una precisión del **XX%**, demostrando que variables como el pH y la temperatura son los predictores más influyentes en la estabilidad del producto.
+
+---
+
+## 🛠️ Instalación y Uso
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/FelipeGoico/Proyecto-Milk-Quality-ML2.git](https://github.com/FelipeGoico/Proyecto-Milk-Quality-ML2.git)
+   cd Proyecto-Milk-Quality-ML2
+
